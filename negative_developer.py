@@ -59,7 +59,5 @@ def read_negative(img_filename):
 for i in range(1, len(sys.argv)):
     file_name = sys.argv[i]
     img_rgb = simple_colorbalance(invert_film_negative(read_negative(file_name)))
-    plt.imshow(img_rgb)
-    plt.show()
     writeable_img =  (cv2.cvtColor(img_rgb, cv2.COLOR_RGB2BGR) * 255).astype('uint8')
     cv2.imwrite("processed_" + str(i) + ".png", writeable_img)
