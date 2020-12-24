@@ -6,12 +6,12 @@ A simple script which inverts and color corrects film negatives.
 
 To run: `python3 negative_developer.py file1.png file2.png....`
 
-##Examples
+## Examples
 
 Input: A *cropped* film negative:
 
-![Input](https://github.com/cranberrymuffin/film-roll-developer/blob/main/data/negative_2.png)
+![Input](https://github.com/cranberrymuffin/film-roll-developer/blob/main/data/negative_3.png)
 
-Output;
+Output:
 
 ![Output](https://github.com/cranberrymuffin/film-roll-developer/blob/main/results/processed_3.png)
